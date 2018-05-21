@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'PT Sans';
+    src: local('PT Sans'), local('PTSans-Regular'), url('https://fonts.gstatic.com/s/ptsans/v9/jizaRExUiTo99u79D0aExcOPIDUg-g.woff2') format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+body,
+div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', Calibri, sans-serif;
+}
+.container {
+    width: 935px;
+    height: 488px;
+    padding: 30px;
+    margin: 100px auto 0;
+    border: 1px solid #ccc;
+}
+.sum-wrapper {
+    font-size: 32px;
+    text-align: center;
+    line-height: 1.0;
+}
+.summand {
+    display: inline-block;
+    padding: 2px 4px;
+    border-radius: 5px;
+}
+.number {
+    width: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'PT Sans', Calibri, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+.sum {
+    display: inline-block;
+    width: 40px;
+}
+.sum .number {
+    width: 100%;
+    height: 30px;
+    font-size: 30px;
+}
+.ruler-wrapper {
+    position: relative;
+    margin: 150px 0;
+}
+.ruler {
+    height: 83px;
+    background: url('images/sprite.png') no-repeat;
+}
+.arrow {
+    position: absolute;
+    bottom: 64px;
+    left: 35px;
+    height: auto;
+}
+.input-wrapper {
+    position: absolute;
+    width: 20px;
+    height: 26px;
+    font-size: 20px;
+    text-align: center;
+}
+.hidden {
+    display: none;
+}
+.error {
+    color: #c04b5c;
+}
+.highlighted {
+    background: #faa956;
+}

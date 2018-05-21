@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Axis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sum-wrapper">
+            <span class="summand js-summand-one"></span> +
+            <span class="summand js-summand-two"></span> =
+            <span class="sum js-sum js-input-wrapper"></span>
+        </div>
+        <div class="ruler-wrapper">
+            <div class="js-arrows">
+                <div class="js-first-arrow hidden">
+                    <div class="input-wrapper js-input-wrapper">
+                        <input class="number js-number" type="text" data-class="js-summand-one">
+                    </div>
+                    <svg class="arrow js-arrow" viewBox="0 0 300 75" preserveAspectRatio="xMinYMin meet">
+                        <path d="M0,75 A160, 110, 0, 0, 1 300, 75" fill="none" stroke="#bc4b85" vector-effect="non-scaling-stroke"/>
+                        <path d="M300 75 L 297 64" stroke="#bc4b85" vector-effect="non-scaling-stroke"/>
+                        <path d="M300 75 L 292 68" stroke="#bc4b85" vector-effect="non-scaling-stroke"/>
+                    </svg>
+                </div>
+                <div class="js-second-arrow hidden">
+                    <div class="input-wrapper js-input-wrapper">
+                        <input class="number js-number" type="text" data-class="js-summand-two">
+                    </div>
+                    <svg class="arrow js-arrow" viewBox="0 0 300 75" preserveAspectRatio="xMinYMin meet">
+                        <path d="M0,75 A160, 110, 0, 0, 1 300, 75" fill="none" stroke="#bc4b85" vector-effect="non-scaling-stroke"/>
+                        <path d="M300 75 L 297 64" stroke="#bc4b85" vector-effect="non-scaling-stroke"/>
+                        <path d="M300 75 L 292 68" stroke="#bc4b85" vector-effect="non-scaling-stroke"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="ruler"></div>
+        </div>
+    </div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" lang="javascript"></script>
+<script src="code.js"></script>
+</body>
+</html>
